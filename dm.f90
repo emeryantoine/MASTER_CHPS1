@@ -10,17 +10,17 @@ program main
 	print *, "a = ?		b = ?		c =?"
 	print *, " "
 	read *, a, b, c
-	print *, " "
+	call system("clear")
 	print *, "ton pylonome est donc"
 	print *, a,"x² +",b,"x +",c
-	call system("clear")
+	print *, " "
 	print *, "tu veux la valeur en un x précis ? dit moi donc"
 	print *, " "
 	read *, x
 	call system("clear")
 	print *, "voila monseigneur",calcul(a, b, c, x)
 	print *, " "
-	print *, "si il y a des racines je vais te les donner :"
+	print *, "Racines :"
 	print *, " "
 	call racines(a, b, c)
 	print *, " "
