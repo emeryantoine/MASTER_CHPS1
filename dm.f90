@@ -2,7 +2,6 @@ program main
 
 	integer :: a, b, c, x
 	real :: r
-	character, dimension(3) :: e
 
 	call system("clear")
 	print *, "alors, il va falloir me donner 3 nombres a, b, c pour créer le polynome :"
