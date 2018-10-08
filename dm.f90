@@ -4,7 +4,7 @@ program main
 	real :: r
 
 	call system("clear")
-	print *, "alors, il va falloir me donner 3 nombres a, b, c pour créer le polynome :"
+	print *, "Bonsoir ! Alors, il va falloir me donner 3 nombres a, b, c pour créer le polynome :"
 	print *, "ax² + bx + c"
 	print *, " "
 	print *, "a = ?		b = ?		c =?"
